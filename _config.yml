@@ -1,1 +1,27 @@
- 
+title: Momo's Blog
+description: A personal blog for recording my learning and work
+baseurl: ""
+url: "https://momo.github.io"
+
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Theme settings
+minima:
+  skin: classic
+  social_links:
+    github: momo
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
